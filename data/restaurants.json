@@ -1,0 +1,16 @@
+{
+    "restaurants": [
+        {
+            "name": "La bonne fourchette",
+            "coords": ["48.619460935698655", "7.732716254949374"]
+        },
+        {
+            "name": "Le poisson frais",
+            "coords": ["48.58438376662038", "7.737234150922903"]
+        },
+        {
+            "name": "Au joli fourneau",
+            "coords": ["48.593532071147514", "7.753922671387007"]
+        }
+    ]
+}
