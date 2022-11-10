@@ -11,6 +11,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
+// Ajout des marqueurs des restaurants sur la carte
 fetch("data/restaurants.json").then(response => response.json()).then(response => {
     for (let restaurant of response.restaurants) {
         let marker = L.marker([restaurant.coords[0], restaurant.coords[1]]).addTo(map);
